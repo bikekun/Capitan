@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Capitan.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DB7FF979-24E9-42F0-B2CC-4F85893B8924}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Capitan.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CapitanEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{38FEB037-8B62-40D1-AE53-353ACB1C4826}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Capitan">
+			<UniqueIdentifier>{826901A7-F15A-449E-8265-AE316F5D0C27}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Capitan\Capitan.Build.cs">
+			<Filter>Source\Capitan</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Capitan\Capitan.cpp">
+			<Filter>Source\Capitan</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Capitan\Capitan.h">
+			<Filter>Source\Capitan</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Capitan\CapitanCharacter.cpp">
+			<Filter>Source\Capitan</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Capitan\CapitanCharacter.h">
+			<Filter>Source\Capitan</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Capitan\CapitanGameMode.cpp">
+			<Filter>Source\Capitan</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Capitan\CapitanGameMode.h">
+			<Filter>Source\Capitan</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
